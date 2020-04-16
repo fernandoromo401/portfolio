@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<?php 
+error_reporting(0);
+$lenguaje = $_GET['lenguaje'];?>
+<html lang="<?php
+  switch ($lenguaje) {
+    case 'es':
+      echo 'es';
+      break;
+    case 'en':
+      echo 'en';
+      break;
+    default:
+      echo 'es';
+      break;
+  }
+?>
+">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Portfolio personal">
+  <meta name="author" content="Fernando Ariel Romo">
+
+  <title>Fernando Romo</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/micss.css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
+
+
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary-my fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="" data-toggle="modal" data-target="#exampleModal">
+      <span class="d-block d-lg-none">Fernando Romo</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+      </span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">Sobre mí</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experiencia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Educación</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Habilidades</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">Trabajos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Proyectos</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center transicion" id="about">
+      <div class="w-100">
+
+        <h1 class="mb-0 ">Fernando
+          <span class="text-primary">Romo</span>
+        </h1>
+        <div class="subheading mb-5">Mendoza - Argentina · <a target="_blank"
+            href="https://wa.me/5492612597274?texto=Hola%20Fernando!">(261) 2597274</a> ·
+          <a href="mailto:fernandoromo401@gmail.com">fernandoromo401@gmail.com</a>
+          <hr>
+          <a class="btn btn-dark" target="_blank" href="./pdf/cv.pdf">Descargar CV</a>
+        </div>
+
+
+        <p class="lead mb-5">Estudiante avanzado de la carrera de Analisis y Programación de Sistemas - Actualmente me
+          desempeño como desarrollador y diseñador web en la agencia Malara Publicidad y de forma freelancer</p>
+        <div class="social-icons">
+          <a target="_blank" href="https://ar.linkedin.com/in/fernando-romo-139126199">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a target="_blank" href="https://github.com/fernandoromo401">
+            <i class="fab fa-github"></i>
+          </a>
+          <a target="_blank" href="https://www.instagram.com/fernandoromo401/">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a target="_blank" href="https://www.facebook.com/fernando.cdgcat.5">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Experiencia</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Malara Publicidad</h3>
+            <div class="subheading mb-3">Desarrollador Web</div>
+            <ul>
+              <li>Diseño y maquetación web (HTML, CSS, JS)</li>
+              <li>Programación del servidor (PHP)</li>
+              <li>Manejo de Bases de Datos (MySQL)</li>
+              <li>Manejo de Hosting y despliegue</li>
+              <li>Posicionamiento Web</li>
+              <li>Mantenimiento de software y hardware</li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Enero 2019 - Abril 2020</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Informática General</h3>
+            <div class="subheading mb-3">Programación - Diseño Web - Servidor - Mantenimiento software y hardware</div>
+            <ul>
+              <li>Desarrollo de paginas web - freelancer</li>
+              <li>Instalación de S.O</li>
+              <li>Armado y Reparación de PC's</li>
+              <li>Instalación de software específico</li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Julio 2018 - Presente</span>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Educación</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">UTN - Instituto de Educación Superior</h3>
+            <div class="subheading mb-3">Analisita y Programador de Sistemas</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Marzo 2017 - Actualidad</span>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">ITel - ESAPA</h3>
+            <div class="subheading mb-3">Tec. Armado y Reparación de PC</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Marzo 2011 - 2012</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Cursos</h3>
+            <ul>
+              <li>
+                <i class="fa-li fa fa-trophy text-warning"></i>
+                <strong>JavaScript:</strong> Angular 8, NodeJS, Socket.io, MongoDB, JS - TS
+              </li>
+              <li>
+                <i class="fa-li fa fa-trophy text-warning"></i>
+                <strong>NestJS:</strong> API Rest y TypeORM
+              </li>
+              <li>
+                <i class="fa-li fa fa-trophy text-warning"></i>
+                <strong>Ionic 4:</strong> Ionic + Angular, Firebase y Cordova
+              </li>
+              <li>
+                <i class="fa-li fa fa-trophy text-warning"></i>
+                <strong>NodeJS:</strong> Sockets, JWT, Express, ElectronJS, NPM, despliegue
+              </li>
+              <li>
+                <i class="fa-li fa fa-trophy text-warning"></i>
+                <strong>PHP7:</strong> POO, PDO, MySQL, Desarrollo en capas, Laraval (básico)
+              </li>
+              <li>
+                <i class="fa-li fa fa-trophy text-warning"></i>
+                <strong>GIT:</strong> CMD de windows, comandos basicos de git, GitHub
+              </li>
+              <li>
+                <i class="fa-li fa fa-trophy text-warning"></i>
+                <strong>Arquitectura:</strong> Patrones de Diseño, UML, Architec Enterprise
+              </li>
+              <li>
+                <i class="fa-li fa fa-trophy text-warning"></i>
+                <strong>Diseño Web:</strong> HTML5 , CSS3 (SASS, GRID, Respondive, MediaQuery, bootstrap4, materialize)
+              </li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Enero 2017 - Actualidad</span>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Talleres</h3>
+            <ul>
+              <li>
+                <i class="fa-li fa fa-trophy text-warning"></i>
+                <strong>Blockchain:</strong> Criptomonedas
+              </li>
+              <li>
+                <i class="fa-li fa fa-trophy text-warning"></i>
+                <strong>Pitching:</strong> Simulacion de rondas de vinculación
+              </li>
+              <li>
+                <i class="fa-li fa fa-trophy text-warning"></i>
+                <strong>Linux:</strong> Introduccion a Linux - UTN
+              </li>
+              <li>
+                <i class="fa-li fa fa-trophy text-warning"></i>
+                <strong>E-Learning:</strong> Moodle
+              </li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Año 2019</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Habilidades</h2>
+
+        <div class="subheading mb-3">Lenguajes de Programacion &amp; Herramientas</div>
+        <p>Foco arriba de icono</p>
+        <ul class="list-inline dev-icons">
+          <li title="HTML5" class="list-inline-item">
+            <i class="fab fa-html5"></i>
+          </li>
+          <li title="CSS3, responsive, grid" class="list-inline-item">
+            <i class="fab fa-css3-alt"></i>
+          </li>
+          <li title="Javascript , Typescript, JQuery" class="list-inline-item">
+            <i class="fab fa-js-square"></i>
+          </li>
+          <li title="PHP7, MVC" class="list-inline-item">
+            <i class="fab fa-php"></i>
+          </li>
+          <li title="JAVA 8" class="list-inline-item">
+            <i class="fab fa-java"></i>
+          </li>
+          <li title="SQL y No-SQL" class="list-inline-item">
+            <i class="fas fa-database"></i>
+          </li>
+          <li title="Angular 8 , IONIC 4" class="list-inline-item">
+            <i class="fab fa-angular"></i>
+          </li>
+          <li title="NodeJS, NestJS" class="list-inline-item">
+            <i class="fab fa-node-js"></i>
+          </li>
+          <li title="Arquitecturas y UML" class="list-inline-item">
+            <i class="fas fa-sitemap"></i>
+          </li>
+          <li title="Bootstrap 4" class="list-inline-item">
+            <i class="fab fa-bootstrap"></i>
+          </li>
+          <li title="Git y Control de Versiones" class="list-inline-item">
+            <i class="fab fa-github"></i>
+          </li>
+        </ul>
+
+        <div class="subheading mb-3">Habilidades</div>
+        <ul class="fa-ul mb-0">
+          <li>Proactivo</li>
+          <li>Compromiso</li>
+          <li>Responsabilidad</li>
+          <li>Puntualidad</li>
+          <li>Deseo de Aprender</li>
+          <li>Trabajo en Equipo</li>
+        </ul>
+      </div>
+    </section>
+
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+      <div class="w-100">
+        <h2 class="mb-5">Trabajos</h2>
+        <div class="container text-center">
+          <div id="marcas" class="row marcas"></div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
+      <div class="w-100">
+          <h2 class="mb-5">Proyectos Personales</h2>
+          <div class="container">
+              <ul>
+                <a href=""><strong>App de Tareas</strong></a>
+                <ol>
+                  <li>Creado con Ionic y Angular</li>
+                  <li>Creador de tareas personales</li>
+                  <li>Trabaja con LocalStorage</li>
+                  <li>(Prototipo)</li>
+                </ol>
+                <a href=""><strong>Detector de Mutantes</strong></a>
+                <ol>
+                  <li>Examen de Mercado Libre</li>
+                  <li>Detecta si una persona es mutante o no segun su cadena de ADN</li>
+                  <li>Analiza la Matriz de ADN mediante un middleware y almacena según su tipo de ADN</li>
+                  <li>Arquitectura REST</li>
+                  <li>Tecnologías MongoDB - Express - Angular - NodeJS</li>
+                </ol>
+                <a href=""><strong>CRUD</strong></a>
+                <ol>
+                  <li>Create, read, update y delete</li>
+                  <li>Operaciones basicas CRUD</li>
+                  <li>Arquitectura REST</li>
+                  <li>Tecnologias MongoDB - Express - Angular - NodeJS</li>
+                </ol>
+                <a href=""><strong>Sistema de Ventas</strong></a>
+                <ol>
+                  <li>Arquitectura MVC</li>
+                  <li>Lista de Productos</li>
+                  <li>Filtros de Busqueda</li>
+                  <li>Carrito de compras por sesión</li>
+                  <li>Metodo de pago con API de Mercado Pago</li>
+                  <li>Generador de comprobante en PDF</li>
+                  <li>Falta el Panel Administrativo (Stand By)</li>
+                  <li>Tecnologías PHP - Bootstrap - MySQL - Api MP</li>
+                </ol>
+                <a href=""><strong>HomeBanking</strong></a>
+                <ol>
+                  <li>Login - SignUp - Logout</li>
+                  <li>Simulador de Plazo Fijo</li>
+                  <li>Plata en Caja - Ingreso y Retiro de Dinero</li>
+                  <li>Ultimos movimientos del Usuario</li>
+                  <li>Tecnologias PHP - Bootstrap - JS - HTML - MySQL</li>
+                </ol>
+                <a href=""><strong>Parquimetro Inteligente</strong></a>
+                <ol>
+                  <li>Examen de Lagash System</li>
+                  <li>Uso de hilos threads para simular contador</li>
+                  <li>Paradigma de POO</li>
+                  <li>Lenguaje JAVA</li>
+                </ol>
+                <a href=""><strong>API REST</strong></a>
+                <ol>
+                  <li>Operaciones CRUD</li>
+                  <li>Tecnologias NestJS y TypeORM</li>
+                </ol>
+                <a href=""><strong>Sistema de Login</strong></a>
+                <ol>
+                  <li>Login - Logout</li>
+                  <li>Tecnologias HTML - Materialize - PHP - MySQL - AJAX</li>
+                </ol>
+              </ul>
+          </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Foto Completa</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="./img/body.jpg" width="400px" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
+
+  <script src="./components/marcas.js"></script>
+
+</html>
