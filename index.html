@@ -1,22 +1,5 @@
 <!DOCTYPE html>
-<?php 
-error_reporting(0);
-$lenguaje = $_GET['lenguaje'];?>
-<html lang="<?php
-  switch ($lenguaje) {
-    case 'es':
-      echo 'es';
-      break;
-    case 'en':
-      echo 'en';
-      break;
-    default:
-      echo 'es';
-      break;
-  }
-?>
-">
-
+<html lang="ES"
 <head>
 
   <meta charset="utf-8">
@@ -37,6 +20,7 @@ $lenguaje = $_GET['lenguaje'];?>
 
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
 
 
 
@@ -57,7 +41,7 @@ $lenguaje = $_GET['lenguaje'];?>
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav margen">
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#about">Sobre mí</a>
         </li>
@@ -96,8 +80,8 @@ $lenguaje = $_GET['lenguaje'];?>
         </div>
 
 
-        <p class="lead mb-5">Estudiante avanzado de la carrera de Analisis y Programación de Sistemas - Actualmente me
-          desempeño como desarrollador y diseñador web en la agencia Malara Publicidad y de forma freelancer</p>
+        <p class="lead mb-5">Estudiante avanzado de la carrera de Análisis y Programación de Sistemas - Actualmente me
+          desempeño como desarrollador y diseñador web en la agencia Malara Publicidad y de forma freelance.</p>
         <div class="social-icons">
           <a target="_blank" href="https://ar.linkedin.com/in/fernando-romo-139126199">
             <i class="fab fa-linkedin-in"></i>
@@ -144,8 +128,8 @@ $lenguaje = $_GET['lenguaje'];?>
             <h3 class="mb-0">Informática General</h3>
             <div class="subheading mb-3">Programación - Diseño Web - Servidor - Mantenimiento software y hardware</div>
             <ul>
-              <li>Desarrollo de paginas web - freelancer</li>
-              <li>Instalación de S.O</li>
+              <li>Desarrollo de páginas web - freelancer</li>
+              <li>Instalación de S.O.</li>
               <li>Armado y Reparación de PC's</li>
               <li>Instalación de software específico</li>
             </ul>
@@ -168,7 +152,7 @@ $lenguaje = $_GET['lenguaje'];?>
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">UTN - Instituto de Educación Superior</h3>
-            <div class="subheading mb-3">Analisita y Programador de Sistemas</div>
+            <div class="subheading mb-3">Analista y Programador de Sistemas</div>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Marzo 2017 - Actualidad</span>
@@ -210,15 +194,15 @@ $lenguaje = $_GET['lenguaje'];?>
               </li>
               <li>
                 <i class="fa-li fa fa-trophy text-warning"></i>
-                <strong>GIT:</strong> CMD de windows, comandos basicos de git, GitHub
+                <strong>GIT:</strong> CMD de windows, comandos básicos de Git, GitHub
               </li>
               <li>
                 <i class="fa-li fa fa-trophy text-warning"></i>
-                <strong>Arquitectura:</strong> Patrones de Diseño, UML, Architec Enterprise
+                <strong>Arquitectura:</strong> Patrones de Diseño, UML, Architect Enterprise
               </li>
               <li>
                 <i class="fa-li fa fa-trophy text-warning"></i>
-                <strong>Diseño Web:</strong> HTML5 , CSS3 (SASS, GRID, Respondive, MediaQuery, bootstrap4, materialize)
+                <strong>Diseño Web:</strong> HTML5 , CSS3 (SASS, GRID, Responsive, MediaQuery, bootstrap4, materialize)
               </li>
             </ul>
           </div>
@@ -236,11 +220,11 @@ $lenguaje = $_GET['lenguaje'];?>
               </li>
               <li>
                 <i class="fa-li fa fa-trophy text-warning"></i>
-                <strong>Pitching:</strong> Simulacion de rondas de vinculación
+                <strong>Pitching:</strong> Simulación de rondas de vinculación
               </li>
               <li>
                 <i class="fa-li fa fa-trophy text-warning"></i>
-                <strong>Linux:</strong> Introduccion a Linux - UTN
+                <strong>Linux:</strong> Introducción a Linux - UTN
               </li>
               <li>
                 <i class="fa-li fa fa-trophy text-warning"></i>
@@ -262,8 +246,8 @@ $lenguaje = $_GET['lenguaje'];?>
       <div class="w-100">
         <h2 class="mb-5">Habilidades</h2>
 
-        <div class="subheading mb-3">Lenguajes de Programacion &amp; Herramientas</div>
-        <p>Foco arriba de icono</p>
+        <div class="subheading mb-3">Lenguajes de Programación &amp; Herramientas</div>
+        <p>Foco arriba de ícono</p>
         <ul class="list-inline dev-icons">
           <li title="HTML5" class="list-inline-item">
             <i class="fab fa-html5"></i>
@@ -302,7 +286,7 @@ $lenguaje = $_GET['lenguaje'];?>
 
         <div class="subheading mb-3">Habilidades</div>
         <ul class="fa-ul mb-0">
-          <li>Proactivo</li>
+          <li>Proactividad</li>
           <li>Compromiso</li>
           <li>Responsabilidad</li>
           <li>Puntualidad</li>
@@ -319,7 +303,7 @@ $lenguaje = $_GET['lenguaje'];?>
       <div class="w-100">
         <h2 class="mb-5">Trabajos</h2>
         <div class="container text-center">
-          <div id="marcas" class="row marcas"></div>
+          <div id="marcas" class="row marcas text-center"></div>
         </div>
       </div>
     </section>
@@ -340,7 +324,7 @@ $lenguaje = $_GET['lenguaje'];?>
                 <a href=""><strong>Detector de Mutantes</strong></a>
                 <ol>
                   <li>Examen de Mercado Libre</li>
-                  <li>Detecta si una persona es mutante o no segun su cadena de ADN</li>
+                  <li>Detecta si una persona es mutante o no según su cadena de ADN</li>
                   <li>Analiza la Matriz de ADN mediante un middleware y almacena según su tipo de ADN</li>
                   <li>Arquitectura REST</li>
                   <li>Tecnologías MongoDB - Express - Angular - NodeJS</li>
@@ -348,17 +332,17 @@ $lenguaje = $_GET['lenguaje'];?>
                 <a href=""><strong>CRUD</strong></a>
                 <ol>
                   <li>Create, read, update y delete</li>
-                  <li>Operaciones basicas CRUD</li>
+                  <li>Operaciones básicas CRUD</li>
                   <li>Arquitectura REST</li>
-                  <li>Tecnologias MongoDB - Express - Angular - NodeJS</li>
+                  <li>Tecnologías MongoDB - Express - Angular - NodeJS</li>
                 </ol>
                 <a href=""><strong>Sistema de Ventas</strong></a>
                 <ol>
                   <li>Arquitectura MVC</li>
                   <li>Lista de Productos</li>
-                  <li>Filtros de Busqueda</li>
+                  <li>Filtros de Búsqueda</li>
                   <li>Carrito de compras por sesión</li>
-                  <li>Metodo de pago con API de Mercado Pago</li>
+                  <li>Método de pago con API de Mercado Pago</li>
                   <li>Generador de comprobante en PDF</li>
                   <li>Falta el Panel Administrativo (Stand By)</li>
                   <li>Tecnologías PHP - Bootstrap - MySQL - Api MP</li>
@@ -368,10 +352,10 @@ $lenguaje = $_GET['lenguaje'];?>
                   <li>Login - SignUp - Logout</li>
                   <li>Simulador de Plazo Fijo</li>
                   <li>Plata en Caja - Ingreso y Retiro de Dinero</li>
-                  <li>Ultimos movimientos del Usuario</li>
-                  <li>Tecnologias PHP - Bootstrap - JS - HTML - MySQL</li>
+                  <li>Últimos movimientos del Usuario</li>
+                  <li>Tecnologías PHP - Bootstrap - JS - HTML - MySQL</li>
                 </ol>
-                <a href=""><strong>Parquimetro Inteligente</strong></a>
+                <a href=""><strong>Parquímetro Inteligente</strong></a>
                 <ol>
                   <li>Examen de Lagash System</li>
                   <li>Uso de hilos threads para simular contador</li>
@@ -381,12 +365,12 @@ $lenguaje = $_GET['lenguaje'];?>
                 <a href=""><strong>API REST</strong></a>
                 <ol>
                   <li>Operaciones CRUD</li>
-                  <li>Tecnologias NestJS y TypeORM</li>
+                  <li>Tecnologías NestJS y TypeORM</li>
                 </ol>
                 <a href=""><strong>Sistema de Login</strong></a>
                 <ol>
                   <li>Login - Logout</li>
-                  <li>Tecnologias HTML - Materialize - PHP - MySQL - AJAX</li>
+                  <li>Tecnologías HTML - Materialize - PHP - MySQL - AJAX</li>
                 </ol>
               </ul>
           </div>
@@ -404,7 +388,7 @@ $lenguaje = $_GET['lenguaje'];?>
           </button>
         </div>
         <div class="modal-body text-center">
-          <img src="./img/body.jpg" width="400px" alt="">
+          <img src="./img/body.jpg" width="100%" alt="">
         </div>
       </div>
     </div>

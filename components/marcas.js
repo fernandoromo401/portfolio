@@ -2,7 +2,7 @@ let contenedor = document.getElementById("marcas")
 let marcas = [
     {
         titulo: 'Fim Frannino',
-        descripcion: 'Conversion de HTML3 a HTML5 manteniendo estilo - Opcion de multilenguaje - Panel Administrato, login',
+        descripcion: 'Conversión de HTML3 a HTML5 manteniendo estilo - Opción de multilenguaje - Panel Administrativo, login',
         imagen: 'frannino.png',
         link: 'https://frannino.com/'
     },
@@ -20,13 +20,13 @@ let marcas = [
     },
     {
         titulo: 'Bazar Manzano',
-        descripcion: 'Continuar estilo anterior - Sistema de Catalogo de Productos',
+        descripcion: 'Continuar estilo anterior - Sistema de Catálogo de Productos',
         imagen: 'manzano.png',
         link: 'http://www.bazarmanzano.com.ar/'
     },
     {
         titulo: 'Masfe',
-        descripcion: 'Sitio Web Completo - implementacion de WordPress en el blog',
+        descripcion: 'Sitio Web Completo - implementación de WordPress en el blog',
         imagen: 'masfe.png',
         link: 'https://partidomasfe.com/'
     },
@@ -83,6 +83,4 @@ for (let i = 0; i < marcas.length; i++) {
 
     contenedor.innerHTML += html
 
-}
-
-
+}   
