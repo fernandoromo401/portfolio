@@ -9,7 +9,7 @@ let marcas = [
   {
     titulo: "Fim Frannino",
     descripcion:
-      "Conversión de HTML3 a HTML5 manteniendo estilo - Opción de multilenguaje - Panel Administrativo, login",
+      "Conversión de HTML3 a HTML5 manteniendo estilo - Opción de multilenguaje - Panel Administrativo, login - SEO",
     imagen: "frannino.png",
     link: "https://frannino.com/",
   },
@@ -27,7 +27,7 @@ let marcas = [
   },
   {
     titulo: "Bazar Manzano",
-    descripcion: "Continuar estilo anterior - Sistema de Catálogo de Productos",
+    descripcion: "Continuar estilo anterior - Sistema de Catálogo de Productos - SEO",
     imagen: "manzano.png",
     link: "http://www.bazarmanzano.com.ar/",
   },
@@ -45,7 +45,7 @@ let marcas = [
   },
   {
     titulo: "Moretti Logistica",
-    descripcion: "Sitio Web Completo",
+    descripcion: "Sitio Web Completo - SEO",
     imagen: "moretti.png",
     link: "http://morettilogistica.com/",
   },
@@ -57,7 +57,7 @@ let marcas = [
   },
   {
     titulo: "Malara Publicidad",
-    descripcion: "Sitio Web Completo - Panel para editar sitio - Mailing",
+    descripcion: "Sitio Web Completo - Panel para editar sitio - Mailing - SEO",
     imagen: "malara.png",
     link: "https://www.malarapublicidad.com.ar/",
   },
